@@ -5,6 +5,7 @@ class PostsController < ApplicationController
   end
 
   def new
+    @post = Post.new
   end
 
   def create
@@ -12,7 +13,7 @@ class PostsController < ApplicationController
     if @post.save
       redirect_to @post
       else
-        render action: 'index'
+        render 'new'
     end
   end
 
