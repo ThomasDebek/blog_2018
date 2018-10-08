@@ -75,8 +75,9 @@ a {
     position: absolute;
     right: 3em;
     top: 80%;
-    font-size: 8em;
+    font-size: .8em;
     color: #9eafba;
+
   }
 }
 
@@ -84,13 +85,13 @@ a {
   outline: none;
   background: transparent;
   border: 1px solid #d6dce0;
-  padding: 5em 1, 5em;
-  border-radius: 1, 5em;
+  padding: .5em 1.5em;
+  border-radius: 1.5em;
   &:hover {
     border: 1px solid #33acb7;
     color: #33acb7;
     a {
-      color: #33acb7 !important;;
+      color: #33acb7 !important;
     }
   }
 }
@@ -104,7 +105,7 @@ a {
 }
 
 #main_content {
-  margin-left: 250px;
+  margin-left: 270px;
   #header {
     padding: 1em 3em;
     border-bottom: 1px solid #d6dce0;
@@ -121,8 +122,8 @@ a {
       float: right;
       margin-top: -6px;
       .button {
-        font-size: 8em;
-        marin-left: .5em;
+        font-size: .8em;
+        marin-left: 5em;
       }
     }
   }
@@ -135,7 +136,7 @@ a {
         font-weight: 500;
         text-decoration: none;
         color: #2a2f35;
-        font-size: 1, 5em;
+        font-size: 1.5em;
         &:hover {
           color: #33acb7;
         }
@@ -152,12 +153,12 @@ a {
       font-weight: 500;
       text-decoration: none;
       color: #2a2f35;
-      font-size: 2, 5em;
+      font-size: 2.5em;
       margin-bottom: 0;
     }
     .body {
-      font-size: 1, 1em;
-      line-height: 1, 75;
+      font-size: 1.1em;
+      line-height: 1.75;
     }
     .date_and_author {
       color: #9eafba;
@@ -235,7 +236,7 @@ a {
   input[type="text"], input[type="email"], input[type="password"], textarea {
     width: 90%;
     border: 1px solid #d6dce0;
-    border-radius: 35em;
+   #border-radius: 35em;
     margin-top: 10px;
     padding: .5em 1em;
     line-height: 1.75;
@@ -256,7 +257,7 @@ a {
     padding: .5em 1.5em;
     font-size: 1.1em;
     border-radius: 1.5em;
-    margin-right: 5em;
+    #margin-right: 5em;
     &:hover {
       border: 1px solid #33acb7;
       color: #33acb7;
