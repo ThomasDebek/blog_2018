@@ -6,4 +6,7 @@ Rails.application.routes.draw do
   end
 
 
+  get '/about', to: 'pages#about'
+
+
 end
